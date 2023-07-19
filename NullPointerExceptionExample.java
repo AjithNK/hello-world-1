@@ -9,7 +9,7 @@ public class NullPointerExceptionExample {
 		
 		try {
 		String s=null;
-		System.out.println(s.length());
+		System.out.println("String length: "+s.length());
 		}
 		
 		catch(Exception e) {
